@@ -22,6 +22,4 @@ Welcome to my personal developer portfolio built using React + Vite.
 - Contact Section
 - Smooth Animations
 
----
 
-## 📂 Project Structure
