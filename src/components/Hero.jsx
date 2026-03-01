@@ -47,16 +47,11 @@ function Hero() {
           </h2>
 
           <p className="main-para">
-            I develop responsive, scalable, and user-friendly web applications.
-            Skilled in modern frontend, backend, and database technologies, I
-            combine clean code practices with thoughtful design principles.
-            I focus on building smooth user flows, intuitive interfaces, and
-            practical real-world solutions that work across devices. With
-            hands-on experience in AngularJS, PHP, MySQL, and UI/UX design,
-            I enjoy transforming ideas into functional, elegant, and visually
-            simple web experiences. I’m constantly exploring new tools,
-            improving my development workflow, and creating digital solutions
-            that feel effortless to use.
+            I build responsive, scalable, and user-friendly web applications that deliver seamless digital experiences. With strong expertise in modern frontend and backend technologies, I focus on writing clean, maintainable code combined with thoughtful design principles.
+
+            I specialize in developing dynamic interfaces using React and AngularJS, and building robust server-side applications with Node.js and Express.js, supported by efficient database management using MySQL. My approach centers on creating smooth user journeys, intuitive UI/UX, and practical real-world solutions that perform consistently across devices.
+
+            Passionate about continuous learning, I continuously explore new tools and technologies to refine my workflow and deliver high-quality, efficient solutions that feel effortless to use.
           </p>
 
           <div className="hero-actions">

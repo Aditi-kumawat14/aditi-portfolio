@@ -1042,6 +1042,51 @@ body {
   font-size: 0.95rem;
 }
 
+/* Make card clickable */
+.project-clickable {
+  cursor: pointer;
+}
+
+/* Image wrapper */
+.project-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* Overlay */
+.project-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Show overlay on hover */
+.project-card:hover .project-overlay {
+  opacity: 1;
+}
+
+/* Slight zoom effect */
+.project-cover {
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-cover {
+  transform: scale(1.05);
+}
+
 /* ============================= */
 /*         ANIMATIONS            */
 /* ============================= */

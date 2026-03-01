@@ -52,8 +52,8 @@ function Projects() {
       tech: ["HTML5", "CSS3", "JavaScript", "ReactJS" , "Responsive Design"],
       cover: p1,
       images: [p1,p2,p3,p4,p4,p5],
-      live: "#",
-      code: "#",
+      live: "https://aditi-portfolio-taupe-sigma.vercel.app/",
+      code: "https://github.com/Aditi-kumawat14/aditi-portfolio",
     },
     {
       id: "event",
@@ -103,11 +103,17 @@ function Projects() {
                 className="project-clickable"
                 onClick={() => openProject(project)}
               >
-                <img
-                  src={project.cover}
-                  alt={project.title}
-                  className="project-cover"
-                />
+                <div className="project-image-wrapper">
+                  <img
+                    src={project.cover}
+                    alt={project.title}
+                    className="project-cover"
+                  />
+
+                  <div className="project-overlay">
+                    <span>Explore Project</span>
+                  </div>
+                </div>
 
                 <div className="project-content">
                   <h3>{project.title}</h3>
