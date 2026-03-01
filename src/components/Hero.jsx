@@ -56,7 +56,7 @@ function Hero() {
 
           <div className="hero-actions">
             <a
-              href="https://drive.google.com/file/d/1EE9sLVNp_DnKbgel-GxxE95X4ZQLJ0L_/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1L_Ao5y7c3dH6h33F-oAvezrqL9UDbBRS/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="btn"
