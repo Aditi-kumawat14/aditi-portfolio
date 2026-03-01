@@ -111,7 +111,7 @@ function Projects() {
                   />
 
                   <div className="project-overlay">
-                    <span>Explore Project</span>
+                    <span>View Project Gallery</span>
                   </div>
                 </div>
 
