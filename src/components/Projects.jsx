@@ -26,6 +26,15 @@ import p3 from "../assets/images/port3.png";
 import p4 from "../assets/images/port4.png";
 import p5 from "../assets/images/port5.png";
 
+import urban1 from "../assets/images/UrbanStyle1.png";
+import urban2 from "../assets/images/UrbanStyle2.png";
+import urban3 from "../assets/images/UrbanStyle3.png";
+import urban4 from "../assets/images/UrbanStyle4.png";
+import urban5 from "../assets/images/UrbanStyle5.png";
+import urban6 from "../assets/images/UrbanStyle6.png";
+
+
+
 
 
 function Projects() {
@@ -67,6 +76,17 @@ function Projects() {
       live: "#",
       code: "#",
     },
+    {
+      id: "urbanstyle",
+      title: "UrbanStyle — E-commerce Website",
+      description:
+        "A modern E-commerce web application focused on minimalist black-and-white streetwear aesthetics. Features product listing, product detail pages, and cart functionality with a strong focus on user experience and conversion-friendly design.",
+      tech: ["ReactJS", "JavaScript", "HTML5", "CSS3", "Responsive Design"],
+      cover: urban1,
+      images: [urban1, urban2, urban3, urban4, urban5, urban6],
+      live: "https://urbanstyle-ecommerce.vercel.app/",
+      code: "https://github.com/Aditi-kumawat14/urbanstyle-ecommerce"
+    }
   ];
 
   const openProject = (project) => {
